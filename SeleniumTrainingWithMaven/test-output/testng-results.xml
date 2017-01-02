@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33135" started-at="2016-12-29T04:48:27Z" finished-at="2016-12-29T04:49:00Z">
+  <suite name="Default suite" duration-ms="30112" started-at="2017-01-02T03:45:31Z" finished-at="2017-01-02T03:46:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33135" started-at="2016-12-29T04:48:27Z" finished-at="2016-12-29T04:49:00Z">
-      <class name="rawSelenium.DemoTest1">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rawSelenium.DemoTest1@1cd072a9]" name="beforeMethod" is-config="true" duration-ms="17702" started-at="2016-12-29T10:18:27Z" finished-at="2016-12-29T10:18:45Z">
+    <test name="Default test" duration-ms="30112" started-at="2017-01-02T03:45:31Z" finished-at="2017-01-02T03:46:02Z">
+      <class name="rawSelenium.AddressBarActions">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="beforeMethod" is-config="true" duration-ms="6455" started-at="2017-01-02T09:15:31Z" finished-at="2017-01-02T09:15:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:rawSelenium.DemoTest1@1cd072a9]" name="f" duration-ms="12587" started-at="2016-12-29T10:18:45Z" finished-at="2016-12-29T10:18:57Z">
+        <test-method status="PASS" signature="testAllAdressBar()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="testAllAdressBar" duration-ms="16311" started-at="2017-01-02T09:15:38Z" finished-at="2017-01-02T09:15:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rawSelenium.DemoTest1@1cd072a9]" name="afterMethod" is-config="true" duration-ms="2696" started-at="2016-12-29T10:18:57Z" finished-at="2016-12-29T10:19:00Z">
+        </test-method> <!-- testAllAdressBar -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="afterMethod" is-config="true" duration-ms="1673" started-at="2017-01-02T09:15:54Z" finished-at="2017-01-02T09:15:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- rawSelenium.DemoTest1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="beforeMethod" is-config="true" duration-ms="4298" started-at="2017-01-02T09:15:56Z" finished-at="2017-01-02T09:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="f" duration-ms="2" started-at="2017-01-02T09:16:00Z" finished-at="2017-01-02T09:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:rawSelenium.AddressBarActions@47f37ef1]" name="afterMethod" is-config="true" duration-ms="1322" started-at="2017-01-02T09:16:00Z" finished-at="2017-01-02T09:16:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- rawSelenium.AddressBarActions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
