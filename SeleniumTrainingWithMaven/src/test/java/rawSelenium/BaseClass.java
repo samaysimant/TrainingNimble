@@ -43,5 +43,14 @@ public class BaseClass {
   public void afterMethod() {
 	  driver.quit();
   }
+  
+  public void wait(int time_in_ms){
+	  try {
+		Thread.sleep(time_in_ms);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+  }
 
 }
