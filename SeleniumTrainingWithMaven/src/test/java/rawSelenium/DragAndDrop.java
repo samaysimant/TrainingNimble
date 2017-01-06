@@ -28,13 +28,13 @@ public class DragAndDrop extends BaseClass {
 		driver.get("http://html5demos.com/drag#");
 		Actions act=new Actions(driver);
 		
-		WebElement from = driver.findElement(By.xpath("//a[@id='one']/.."));
+		WebElement from = driver.findElement(By.xpath("//a[@id='one']"));
 		highlightElement(from);
 		WebElement to = driver.findElement(By.id("bin"));
 		highlightElement(to);
 		System.out.println(from.getTagName());
-		act.dragAndDrop(from, to).build().perform();
-		//act.clickAndHold(from).moveToElement(to).release(to).build().perform();
+		//act.dragAndDrop(from, to).build().perform();
+		act.clickAndHold(from).moveToElement(to).release(to).build().perform();
 		Thread.sleep(2000);
 		//Tear down
 		driver.quit();

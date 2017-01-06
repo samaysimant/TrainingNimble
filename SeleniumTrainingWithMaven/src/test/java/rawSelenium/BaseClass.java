@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -28,8 +29,8 @@ public class BaseClass {
 	  driver=new ChromeDriver();
 	  
 	  //FF
-//	  System.setProperty("webdriver.gecko.driver", "./lib/geckodriver.exe");
-//	  driver=new FirefoxDriver();
+	//  System.setProperty("webdriver.gecko.driver", "./lib/geckodriver.exe");
+	//  driver=new FirefoxDriver();
 	  
 	  //IE
 	//  System.setProperty("webdriver.ie.driver", "./lib/IEDriverServer.exe");
