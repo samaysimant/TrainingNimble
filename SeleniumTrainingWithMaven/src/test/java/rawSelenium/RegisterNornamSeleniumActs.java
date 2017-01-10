@@ -47,7 +47,7 @@ public class RegisterNornamSeleniumActs extends BaseClass{
 	  //*new way
 	  //select value from dropdown 
 	  
-	  new Select(driver.findElement(By.id("days"))).selectByVisibleText("2  ");
+	  new Select(driver.findElement(By.id("days"))).selectByIndex(4);
 	  
 	  new Select(driver.findElement(By.id("months"))).selectByIndex(4);
 	  
