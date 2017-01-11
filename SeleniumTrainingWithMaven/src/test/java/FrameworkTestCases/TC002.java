@@ -2,11 +2,11 @@ package FrameworkTestCases;
 
 import org.testng.annotations.Test;
 
-import FrameworkBase.BaseClassFramework;
+import FrameworkBase.BaseClasstTest;
 
 
 
-public class TC002 extends BaseClassFramework{
+public class TC002 extends BaseClasstTest{
 	
 	
 	

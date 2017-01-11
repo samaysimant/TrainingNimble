@@ -1,4 +1,4 @@
-package FrameworkBase;
+package BASECLASS;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -20,12 +21,18 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
 import DataDriven.GetData;
+import Keywords.ReusableKeywords;
+import Reports.HtmlReports;
 
 
 
 public class BaseClassFramework {
 	
 	public WebDriver driver;
+	
+	public static String fileName;
+	
+	HtmlReports rep;
 	
 	
 	static String browser;
@@ -35,6 +42,8 @@ public class BaseClassFramework {
 	
 	//DATA DRIVEN
 	GetData data;
+	
+	public ReusableKeywords req;
 	
 	static String className;
 	
@@ -60,7 +69,7 @@ public class BaseClassFramework {
 		  driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		  
 		 
-	//	  rk=new ReusableKeywords(driver);
+		  req=new ReusableKeywords(driver);
 		 
 		//  beforeforPageObjects();
 		  
@@ -78,7 +87,7 @@ public class BaseClassFramework {
 		  
 		  HashMap<String,Object[]> map2=new HashMap<String,Object[]>();
 		  
-		  map2=GetData.readData("./src/test/resources/testdata.xls");
+		  map2=GetData.readData(fileName);
 		  
 		
 		 
@@ -90,6 +99,12 @@ public class BaseClassFramework {
 		  
 		  return mydata;
 		  
+	  }
+	  
+	  @AfterTest
+	  public void aftertest() throws IOException{
+		  rep=new HtmlReports();
+		  rep.createhtmlreport(ReusableKeywords.report);
 	  }
 	  
 	 // public abstract void beforeforPageObjects();
