@@ -23,6 +23,7 @@ import org.testng.annotations.AfterMethod;
 import BASECLASS.BaseClassFramework;
 import DataDriven.GetData;
 import FrameworkPageObjects.RegistrationPage;
+import FrameworkPageObjects.SwitchWindowPO;
 
 
 
@@ -30,16 +31,19 @@ public class BaseClasstTest extends BaseClassFramework {
 	
 	
 	public RegistrationPage rp;
+	public SwitchWindowPO sw;
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun=true)
 	public void beforeTest(){
+		System.out.println("In Before Test");
 		super.fileName="./src/test/resources/testdata.xls";
 	}
 	
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void before(){
 		rp=new RegistrationPage(driver);
+		sw=new SwitchWindowPO(driver);
 	}
 	
 	

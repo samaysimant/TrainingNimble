@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33919" started-at="2017-01-11T05:09:59Z" finished-at="2017-01-11T05:10:33Z">
+  <suite name="Default suite" duration-ms="53496" started-at="2017-01-12T04:05:17Z" finished-at="2017-01-12T04:06:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33919" started-at="2017-01-11T05:09:59Z" finished-at="2017-01-11T05:10:33Z">
-      <class name="FrameworkTestCases.TC001HYB">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="beforeTest" is-config="true" duration-ms="20" started-at="2017-01-11T10:40:00Z" finished-at="2017-01-11T10:40:00Z">
+    <test name="Default test" duration-ms="53496" started-at="2017-01-12T04:05:17Z" finished-at="2017-01-12T04:06:10Z">
+      <class name="FrameworkTestCases.TC002HYB">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="beforeTest" is-config="true" duration-ms="38" started-at="2017-01-12T09:35:17Z" finished-at="2017-01-12T09:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-01-11T10:40:00Z" finished-at="2017-01-11T10:40:00Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-01-12T09:35:17Z" finished-at="2017-01-12T09:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="beforeMethod" is-config="true" duration-ms="5571" started-at="2017-01-11T10:40:00Z" finished-at="2017-01-11T10:40:06Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="beforeMethod" is-config="true" duration-ms="9547" started-at="2017-01-12T09:35:17Z" finished-at="2017-01-12T09:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="before()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="before" is-config="true" duration-ms="46" started-at="2017-01-11T10:40:06Z" finished-at="2017-01-11T10:40:06Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="before" is-config="true" duration-ms="53" started-at="2017-01-12T09:35:27Z" finished-at="2017-01-12T09:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="f" duration-ms="25873" started-at="2017-01-11T10:40:06Z" data-provider="DP" finished-at="2017-01-11T10:40:32Z">
+        <test-method status="PASS" signature="learncomplexactions(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="learncomplexactions" duration-ms="40419" started-at="2017-01-12T09:35:27Z" data-provider="DP" finished-at="2017-01-12T09:36:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[TC001HYB]]>
+                <![CDATA[TC002HYB]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Register a new User]]>
+                <![CDATA[Exampe for Switch window]]>
               </value>
             </param>
             <param index="2">
@@ -42,87 +42,22 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[http://automationpractice.com/index.php]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Ricky]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Pati]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[sandy123]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[2015]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Ricky]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[Pati]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[Jefferson Road Rubi Layout]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[Bangalore]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[California]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[87656]]>
-              </value>
-            </param>
-            <param index="16">
-              <value>
-                <![CDATA[9878765653]]>
+                <![CDATA[http://toolsqa.com/automation-practice-switch-windows/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="afterMethod" is-config="true" duration-ms="1862" started-at="2017-01-11T10:40:32Z" finished-at="2017-01-11T10:40:33Z">
+        </test-method> <!-- learncomplexactions -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="afterMethod" is-config="true" duration-ms="2992" started-at="2017-01-12T09:36:07Z" finished-at="2017-01-12T09:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:FrameworkTestCases.TC001HYB@5a39699c]" name="aftertest" is-config="true" duration-ms="0" started-at="2017-01-11T10:40:33Z" finished-at="2017-01-11T10:40:33Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:FrameworkTestCases.TC002HYB@5a39699c]" name="aftertest" is-config="true" duration-ms="8" started-at="2017-01-12T09:36:10Z" finished-at="2017-01-12T09:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- FrameworkTestCases.TC001HYB -->
+      </class> <!-- FrameworkTestCases.TC002HYB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

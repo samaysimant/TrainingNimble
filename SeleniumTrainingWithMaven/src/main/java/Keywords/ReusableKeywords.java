@@ -37,6 +37,7 @@ public class ReusableKeywords {
 	
 	public void click(WebElement ele,String desc){
 		try{
+			System.out.println("Inside Click");
 			this.highlightElement(ele);
 			System.out.println("StepNum :"+stepNum+" "+desc+" Status Pass");
 			report.add("StepNum :"+stepNum+" "+desc+" Status Pass");
@@ -63,6 +64,28 @@ public class ReusableKeywords {
 			report.add("StepNum :"+stepNum+" "+desc+" Status Fail");
 			stepNum++;
 		}
+	}
+	
+	public void switchWindow(int num,String desc){
+		try{
+			Object[] currentWindow = driver.getWindowHandles().toArray();
+			driver.switchTo().window(currentWindow[num].toString());
+			System.out.println("StepNum :"+stepNum+" "+desc+" Status Pass");
+			report.add("StepNum :"+stepNum+" "+desc+" Status PASS");
+			stepNum++;
+		}
+		catch(Exception e){
+			System.out.println("StepNum :"+stepNum+" "+desc+" Status Fail");
+			report.add("StepNum :"+stepNum+" "+desc+" Status Fail");
+			stepNum++;
+			
+		}
+	}
+	
+	public String getText(WebElement ele){
+		//String text;
+		return ele.getText();
+		
 	}
 	
 	

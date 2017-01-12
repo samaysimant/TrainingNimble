@@ -10,11 +10,12 @@ import org.testng.annotations.Test;
 import FrameworkBase.BaseClasstTest;
 import rawSelenium.BaseClass;
 
+@Test(groups="SMOKE")
 public class TC001HYB extends BaseClasstTest {
 
 	Random random = new Random();
 
-	@Test(dataProvider="DP")
+	@Test( dataProvider="DP")
 	public void f(String testcaseId, String desc, String browser,
 
 	String url, String c_fname, String c_lname, String password, String days,

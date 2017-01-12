@@ -7,13 +7,10 @@
 </listeners>
   <test name="Test">
   
-   <!-- <packages>
-   <package name="rawSelenium"/>
-   </packages> -->
-   <classes>
-   <class name="rawSelenium.AddressBarActions"></class>
-   <class name="rawSelenium.Alerts"></class>
-   </classes>
+    <packages>
+   <package name="FrameworkTestCases"/>
+   </packages> 
+   
    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

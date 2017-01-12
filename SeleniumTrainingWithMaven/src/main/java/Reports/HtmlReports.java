@@ -16,8 +16,8 @@ public class HtmlReports {
 +"<body>"
 		+"<div id=tablereport>"
 +"<table>"
-+"<tbody>"
-+"<th> REPORT </th>";
++"<tbody><tr>"
++"<th> REPORT </th></tr>";
 //
 		String rep2 = null;
 for (int i=0;i<step.size();i++){

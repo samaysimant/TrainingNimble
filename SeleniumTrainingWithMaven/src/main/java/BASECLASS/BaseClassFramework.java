@@ -101,7 +101,7 @@ public class BaseClassFramework {
 		  
 	  }
 	  
-	  @AfterTest
+	  @AfterTest(alwaysRun=true)
 	  public void aftertest() throws IOException{
 		  rep=new HtmlReports();
 		  rep.createhtmlreport(ReusableKeywords.report);

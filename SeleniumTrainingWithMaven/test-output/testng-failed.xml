@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="FrameworkTestCases.TC001POM">
+      <class name="FrameworkTestCases.TC002HYB">
         <methods>
+          <include name="learncomplexactions"/>
+          <include name="beforeTest"/>
           <include name="beforeClass"/>
-          <include name="f"/>
+          <include name="aftertest"/>
         </methods>
-      </class> <!-- FrameworkTestCases.TC001POM -->
+      </class> <!-- FrameworkTestCases.TC002HYB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
